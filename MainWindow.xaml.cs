@@ -25,7 +25,6 @@ namespace VideoProcessing
         public MainWindow()
         {
             InitializeComponent();
-
             // TODO: Let user select a camera before we do this.
             InitializeWebCam();
             Closing += (s, e) => Dispose();
